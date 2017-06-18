@@ -14,6 +14,6 @@ $container['product'] = function($c){
     return new \Source\Product($c['conn']);
 };
 
-$list = $container['product']->list();
+$list = $container['product']->lista();
 
 var_dump($list);

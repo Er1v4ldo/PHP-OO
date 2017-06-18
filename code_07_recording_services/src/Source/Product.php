@@ -11,7 +11,7 @@ class Product
         $this->db = $db->connect();
     }
 
-    public function list()
+    public function lista()
     {
         $query = "Select * from products";
         $stmt = $this->db->prepare($query);
