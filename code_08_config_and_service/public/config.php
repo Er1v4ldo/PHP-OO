@@ -6,4 +6,4 @@ $container = new Container();
 
 $container['dsn'] = "mysql:host=localhost;dbname=PHP-OO";
 $container['user'] = "root";
-$container['pass'] = "1erivaldo2";
+$container['pass'] = "303078";

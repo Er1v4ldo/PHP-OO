@@ -6,6 +6,6 @@ require_once "service.php";
 
 use Pimple\Container;
 
-$list = $container['product']->lista();
+$list = $container['ServiceProduct']->listProduct();
 
-var_dump($list);
+require_once "list_product.php";

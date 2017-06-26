@@ -1,5 +1,5 @@
 <?php
-$db = new \PDO("mysql:host=localhost;dbname=PHP-OO","root","1erivaldo2");
+$db = new \PDO("mysql:host=localhost;dbname=PHP-OO","root","303078");
 
 $query = "SELECT * FROM products";
 

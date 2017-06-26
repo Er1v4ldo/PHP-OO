@@ -9,7 +9,7 @@ class Container
 
     public static function getConn()
     {
-        return new Conn("mysql:host=localhost;dbname=PHP-OO", "root", "1erivaldo2");
+        return new Conn("mysql:host=localhost;dbname=PHP-OO", "root", "303078");
     }
 
 }
